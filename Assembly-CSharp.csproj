@@ -59,16 +59,19 @@
     <UnityVersion>2021.3.45f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\Rendi Diksa\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\Rendi Diksa\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Player\PlayerMovements.cs" />
-    <Compile Include="Assets\Scripts\AI\Pathfinding.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerShoot.cs" />
-    <Compile Include="Assets\Scripts\AI\GridBlock.cs" />
-    <Compile Include="Assets\Scripts\AI\Node.cs" />
+    <Compile Include="Assets\Scripts\AI\Level 2\EnemyAI_Level2.cs" />
+    <Compile Include="Assets\Scripts\AI\Level 2\EnemyAI_Level2_Editor.cs" />
+    <Compile Include="Assets\Scripts\Player\Level 1\PlayerMovements.cs" />
+    <Compile Include="Assets\Scripts\AI\Level 1\Pathfinding.cs" />
+    <Compile Include="Assets\Scripts\Player\Level 1\PlayerShoot.cs" />
+    <Compile Include="Assets\Scripts\Player\Level 2\PlayerShoot_LV2.cs" />
+    <Compile Include="Assets\Scripts\AI\Level 1\GridBlock.cs" />
+    <Compile Include="Assets\Scripts\AI\Level 1\Node.cs" />
     <Compile Include="Assets\Scripts\EnemySpawner.cs" />
-    <Compile Include="Assets\Scripts\AI\EnemyAI.cs" />
+    <Compile Include="Assets\Scripts\AI\Level 1\EnemyAI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
