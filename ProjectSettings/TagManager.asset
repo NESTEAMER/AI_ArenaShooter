@@ -4,21 +4,30 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Bullet
-  - Distraction
+  - Crate
+  - Shelf
+  - BadCustomer
+  - NormalCustomer
+  - CrateCollider
+  - Cashier
+  - Pest
+  - Puddle
+  - Cart
+  - CartCollider
+  - Broom
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - Obstacle
-  - Target
-  - Distraction
-  - 
-  - 
-  - 
+  - Crate
+  - NPC
+  - CrateHitCollider
+  - Cart
+  - CartHitCollider
+  - Minimap
   - 
   - 
   - 
